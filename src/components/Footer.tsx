@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
         <F.Link
           data-v2="creator"
           theme={theme}
-          href="https://www.adamalston.com"
+          href="https://github.com/adamalston"
           aria-label="Adam's website"
           title="A link to Adam's personal website"
         >

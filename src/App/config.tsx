@@ -26,7 +26,7 @@ const config: Config = {
     },
     {
       display: 'Resume',
-      aria: 'View my resume in Google Drive',
+      aria: 'View my resume in S3',
       icon: <Resume />,
       href: 'https://jmsgpersonal.s3.amazonaws.com/Resume_Juan_Suarez.pdf',
     },

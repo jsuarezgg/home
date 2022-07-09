@@ -9,7 +9,7 @@ const options: ISourceOptions = {
   },
   particles: {
     number: {
-      value: 100,
+      value: 200,
       density: {
         enable: true,
         area: 800,
@@ -118,7 +118,7 @@ const options: ISourceOptions = {
         quantity: 2,
       },
       repulse: {
-        distance: 100,
+        distance: 70,
         duration: 1,
       },
     },
