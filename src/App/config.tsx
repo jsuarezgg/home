@@ -1,6 +1,6 @@
 import React from 'react';
 import { Config } from 'types';
-import { Email, GitHub, LinkedIn, Resume } from 'icons';
+import { Instagram, GitHub, LinkedIn, Resume } from 'icons';
 
 const config: Config = {
   name: {
@@ -31,10 +31,10 @@ const config: Config = {
       href: 'https://jmsgpersonal.s3.amazonaws.com/Resume_Juan_Suarez.pdf',
     },
     {
-      display: 'Email',
-      aria: 'Send me an email',
-      icon: <Email />,
-      href: 'mailto:jmsg99@hotmail.com',
+      display: 'Instagram',
+      aria: 'Visit my Instagram profile',
+      icon: <Instagram />,
+      href: 'https://www.instagram.com/jsuarez.g/',
     },
   ],
 };
