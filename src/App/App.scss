@@ -22,3 +22,57 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.question-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+
+  h2 {
+    font-size: 2em; // Larger font size for the heading
+    color: #D81B60; // Deep red for a neutral vibe
+    margin-bottom: 30px; // Increased space below the heading
+  }
+
+  button {
+    border: 2px solid transparent; // Styled border for emphasis
+    margin: 15px; // More space between buttons
+    padding: 15px 30px; // Increased padding for a larger button
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px; // Sharp look
+    font-size: 1.2em; // Larger font size for readability
+    outline: none;
+
+    &:hover {
+      transform: translateY(-3px); // Subtle lift effect
+      box-shadow: 0 5px 8px rgba(0,0,0,0.15); // Soft shadow for depth
+    }
+  }
+
+  .yes-button {
+    background-color: #FFC107; // Muted gold
+    color: #263238; // Dark color for contrast
+
+    &:hover {
+      background-color: #FFD54F; // Lighter gold on hover
+      border-color: #FFCA28; // Border transitions to match
+    }
+  }
+
+  .no-button {
+    background-color: transparent; // Clear background for a subtle look
+    color: #607D8B; // Soft blue-grey for the text
+    border-color: #B0BEC5; // Matching border
+
+    &:hover {
+      color: #455A64; // Darker text on hover
+      border-color: #78909C; // Darker border on hover
+    }
+  }
+}
