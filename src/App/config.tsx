@@ -5,11 +5,11 @@ import { Instagram, GitHub, LinkedIn, Resume } from 'icons';
 const config: Config = {
   name: {
     display: 'Juan Manuel Suárez',
-    aria: 'My name is Juan Manuel Suárez',
+    aria: 'Hi!',
   },
   title: {
-    display: 'Analytics Engineer',
-    aria: 'I am an analytics engineer',
+    display: 'Senior Data Engineer',
+    aria: 'I love data',
   },
   buttons: [
     {
